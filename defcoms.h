@@ -2,10 +2,10 @@
 #define TOKEN_BUFFSIZE 	64
 #define DIRN_BUFFSIZE 	128
 
-#define SHELL_NAME 	"MyShell"
+#define SHELL_NAME 	"MySell"
 
 #define PROCMEM_PAT 	"/proc/%d/map_files/"
-#define DUMP_PATH_PAT	"/var/dumps/d%d/"
+#define DUMP_PATH_PAT	"/var/MyShell_dumps/d%d/"
 #define DUMP_FILE_PAT	"%s.dump"
 
 #define CRONFS_TARGET	"/tmp/vfs"
