@@ -112,7 +112,7 @@ void HandleCmd() {
 		args = Tokenise(line);
 		status = Execute(args);
 
-		free(line); 
+		free(line); //вот из-за этого и не работает хистори
 		free(args);
 	}
 }
